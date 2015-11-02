@@ -13,7 +13,7 @@ for(var i=0; i<optionElements.length; i++){
 
     var title = optionElements[i].getAttribute("title");
 
-    if (title) { console.log(title); }
+    if (title!=null) { console.log(title); }
 
     else {
         optionElements[i].setAttribute("title", "BLANK");
