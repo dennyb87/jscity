@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            #colour-list {width: 50%; margin-top: 100px;}
+            #colour-list li {margin-bottom: 10px; padding: 5px; color: white;}
+            .red-bg {background-color: red;}
+            .green-bg {background-color: green;}
+
+        </style>
+    </head>
+    <body>
+
+
+        <h1 id="header" class="header">Hello world!</h1>
+        <h2 id="subheader" class="header" title="subheader title attribute!">This is a subheader</h2>
+
+        <ul id="list" class="unordered-list">
+        	<li>list element 1</li>
+        	<li>list element 2</li>
+        	<li>list element 3</li>
+        	<li>list element 4</li>
+        </ul>
+
+
+        <ul id="second-list" class="unordered-list">
+        	<li title="title of the first li element">list 2 element 1</li>
+			<li title="title of the second li element">list 2 element 2</li>
+            <li>list 2 element 3</li>
+		</ul>
+
+
+        <p>Just a simple text block before our main paragraph.</p>
+        <p id="text-block">Here is some text. It is style with a paragraph HTML element.</p>
+        <p>This is another text paragraph.</p>
+        <p>And another!</p>
+
+
+
+        <form id="my-form">
+            <fieldset>
+                <legend class="legend">A list of Windows operating systems</legend>
+                <select>
+                    <option title="Windows 3.1, which was introduced in 1992" value="win3">Windows 3.1</option>
+                    <option value="win95">Windows 95</option>
+                    <option value="win2000">Windows 2000</option>
+                    <option value="winme">Windows Me</option>
+                    <option title="Windows XP, which was introduced in 2001" value="winxp">Windows XP</option>
+                    <option value="winvista">Windows Vista</option>
+                    <option value="win7">Windows 7</option>
+                    <option title="Windows 8, the latest release of the operating system!" value="win8">Windows 8</option>
+                </select>
+            </fieldset>
+        </form>
+
+        <br />
+
+        <form id="second-form">
+            <fieldset>
+                <legend>A second empty form</legend>
+                <select>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+                <input type="text" value="" id="input-element" />
+            </fieldset>
+        </form>
+
+
+        <ul id="colour-list" class="unordered-list">
+            <li class="red-bg">my background is red!</li>
+            <li class="green-bg">my background is green!</li>
+            <li class="green-bg">my background is also green!</li>
+            <li class="red-bg">list 2 element 3</li>
+        </ul>
+
+
+
+    <script src="./workshop4.js"></script>
+    </body>
+</html>
